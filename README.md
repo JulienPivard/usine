@@ -6,7 +6,7 @@ Projet jeu usine Licence 3 en binôme.
 
 ##Compilation
 La compilation se fait grâce à l'utilitaire _ant_.
-####Logiciel avec lesquels les compilations et les tests ont été fait
+####Logiciel et compilateur utilisé
 * _ant_;
 * _openjdk-7-jdk_
 
@@ -20,5 +20,6 @@ Il faut taper la commande suivante dans un terminal en se plaçant à la racine 
 Pour générer le **jar**,
 il faut exécuter la commande suivante dans un terminal en se plaçant à la racine du projet :
 * _ant compilejar_
-* puis _ant runjar_ pour exécuter **jar**
+* puis _ant runjar_ pour exécuter le **jar**.
+
 Le **jar** généré se situe dans le dossier _dist_.
