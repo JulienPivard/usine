@@ -37,13 +37,18 @@
 
 	<!-- ==================== Dist Target ===================================== -->
 
-	<target name="runjar" depends="clean,compile">
+	<target name="compilejar" depends="clean,compile" description="Compile le code source dans un jar.">
         <mkdir dir="${disthome}"/>
 		<jar jarfile="${disthome}/${appname}.jar" basedir="${buildhome}">
 			<manifest>
 				<attribute name="Main-Class" value="usine.client.Client"/>
 			</manifest>
 		</jar>
+	</target>
+
+	<!-- ==================== Exécute le jeu ================================== -->
+
+	<target name="runjar" description="Exécute le jar" >
         <java jar="${disthome}/${appname}.jar" fork="true" spawn="true"/>
 	</target>
 
