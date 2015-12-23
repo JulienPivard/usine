@@ -6,6 +6,9 @@ Projet jeu usine Licence 3 en binôme.
 
 ##Compilation
 La compilation se fait grâce à l'utilitaire _ant_.
+####Logiciel avec lesquels les compilations et les tests ont été fait
+* _ant_;
+* _openjdk-7-jdk_
 
 ####Compilation rapide
 Pour une compilation rapide qui ne génère pas de **jar**,
